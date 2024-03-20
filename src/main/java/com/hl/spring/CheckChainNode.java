@@ -9,6 +9,7 @@ import javax.annotation.PostConstruct;
 import java.util.List;
 
 /**
+ * 职责链的节点
  * @Author: hl
  * @Description: TODO
  * @DateTime: 2024/3/20  23:15

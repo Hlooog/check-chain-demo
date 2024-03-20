@@ -33,6 +33,10 @@ public class SpringConfig {
         return root;
     }
 
+    /**
+     * 组建链条
+     * @return
+     */
     @Bean
     public VerifyChain verifyChain() {
         return new VerifyChain(build());

@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 
 /**
  * @Author: hl
- * @Description: TODO
+ * @Description:    注解 标在校验类上面 from如果是”“ 表示是第一层来执行， 有值的话表明需要在这个类后面这姓
  * @DateTime: 2024/3/20  22:43
  **/
 @Retention(RetentionPolicy.RUNTIME)

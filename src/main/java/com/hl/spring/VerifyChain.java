@@ -21,6 +21,11 @@ public class VerifyChain {
         this.root = root;
     }
 
+    /**
+     * 指责链的传递
+     * @param condition
+     * @return
+     */
     public Result verify(Map<String, Object> condition) {
         CheckChainNode curr = root;
         Deque<CheckChainNode> queue = new ArrayDeque<>();
